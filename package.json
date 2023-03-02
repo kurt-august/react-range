@@ -23,7 +23,8 @@
     "test:e2e:dev": "E2E=dev yarn jest:e2e",
     "test:e2e:update": "start-server-and-test ladle:ci http-get://localhost:61000 jest:e2e:update",
     "test:unit": "jest src",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prepare": "npm run build"
   },
   "tags": [
     "react"

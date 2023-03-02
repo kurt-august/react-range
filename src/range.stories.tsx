@@ -23,6 +23,7 @@ import TwoThumbsExample from '../examples/TwoThumbs';
 import TwoThumbsDraggableTrackExample from '../examples/TwoThumbsDraggableTrack';
 import TwoThumbsDraggableTrackDownDirectionExample from '../examples/TwoThumbsDraggableTrackDownDirection';
 import UpDirectionExample from '../examples/UpDirection';
+import TwoThumbsMinimumDistance from '../examples/TwoThumbsMinimumDistance';
 
 export const AllowOverlap: React.FC<{ rtl: boolean }> = ({ rtl }) => (
   <AllowOverlapExample rtl={rtl} />
@@ -74,6 +75,9 @@ export const MergingLabelsSkinny: React.FC<{ rtl: boolean }> = ({ rtl }) => (
 );
 export const MultipleThumbs: React.FC<{ rtl: boolean }> = ({ rtl }) => (
   <MultipleThumbsExample rtl={rtl} />
+);
+export const MultipleThumbsMinDistance: React.FC<{ rtl: boolean }> = ({ rtl }) => (
+  <TwoThumbsMinimumDistance />
 );
 export const MultipleThumbsWithDraggableTrack: React.FC<{ rtl: boolean }> = ({
   rtl
